@@ -10,6 +10,8 @@
     integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   <!-- link css -->
   <link rel="stylesheet" href="/Desafio/assets/style/style.css">
+  <!-- link a js -->
+  <script src="/Desafio/index.js" defer></script>
   <!-- link para letras -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,21 +61,27 @@
             Me considero una persona responsable y enfocada. <br>
             Buscando siempre aprender y dar lo mejor.
         </p>
-        <div class="video-container">
-          <video controls poster="/Desafio/assets/img/WIN_20250412_20_06_16_Pro.jpg">
-            <source src="/Desafio/assets/videos/este.mp4" type="video/mp4">
+        <div class="video-preview" onclick="playVideo()">
+          <img src="/Desafio/assets/img/WIN_20250412_20_06_22_Pro.jpg" alt="preview">
+          <div class="play-button">&#9658;</div>
+      </div>
+      
+      <div class="video-container" id="videoContainer" style="display:none;">
+          <video id="videoReal" width="200" height="200" controls>
+              <source src="/Desafio/assets/videos/este.mp4" type="video/mp4">
+              Tu navegador no soporta el video.
           </video>
-        </div>
+      </div>
       </div>
       <div>
         <img src="/Desafio/assets/img/yo.jpeg" alt="imagen principal">
         <ul>
           <h4>Datos personales</h4>
-          <li><i class="fa-solid fa-envelope"></i>  : tomas.briones6@gmail.com</li>
-          <li><i class="fa-solid fa-phone-flip"></i>  :+56972322863</li>
-          <li><i class="fa-solid fa-flag"></i>  : chilena</li>
-          <li><i class="fa-solid fa-location-pin"></i>  : Santiago Centro, av san pablo 1340</li>
-      </ul>
+          <li><i class="fa-solid fa-envelope"></i><span> tomas.briones6@gmail.com</span></li>
+          <li><i class="fa-solid fa-phone-flip"></i><span> +56972322863</span></li>
+          <li><i class="fa-solid fa-flag"></i><span> Chilena</span></li>
+          <li><i class="fa-solid fa-location-pin"></i><span> Santiago Centro, av san pablo 1340</span></li>
+      </ul>      
   </div>
       </div>
     </section> 
@@ -190,32 +198,34 @@
     </section>
   </aside>
   
-<section>
-  <div class="form-floating mb-3">
-    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-    <label for="floatingInput">Contactanos</label>
-  </div>
-  <div class="form-floating">
-    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-    <label for="floatingPassword">Password</label>
-  </div>
-    <!-- <h2>Hobbies</h2>
-    <ul>
-        <li>Andar en bicicleta</li>
-        <li>Juntas con amigos</li>
-    </ul> -->
-
-
-    <footer>
-      <ul>
-          <p>&copy; Tomás Briones Montt</p>
-          <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://github.com/Tomasm44"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
-      </ul>
+  <section class="contacto-seccion">
+    <div class="container py-5">
+      <h2 class="text-center mb-4">Contáctanos</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Correo electrónico</label>
+            </div>
+            <button class="btn btn-primary w-100" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer mt-5">
+    <div class="container text-center py-4">
+      <p class="mb-2">&copy; 2025 Tomás Briones Montt</p>
+      <div class="redes-sociales">
+        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/Tomasm44" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
   </footer>
-</section> 
-     
+  
  
 
 
