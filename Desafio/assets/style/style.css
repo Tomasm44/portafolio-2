@@ -1,0 +1,114 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Tamaño iconos */
+i {
+    font-size: 30px;
+}
+
+
+/* css navbar */
+
+.navbar {
+    background-color: #536E91;
+}
+
+/* css hearder */
+
+.titulos {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C2657;
+    color:#E7E8E6 ;
+    padding: 20px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+img {
+    width:  350px;
+    height: 350px;
+    margin-right: 250px;
+    border-radius: 180%;
+    padding: 1.2%;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 1);
+    border-radius: 180px;
+}
+
+.titulos h1,h2,h3,p {
+    margin-left: 100px;
+}
+
+/* css del video */
+
+.video-container {
+    max-width: 200px;
+    margin: 20px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 1);
+    border-radius: 180px;
+    overflow: hidden;
+}
+  
+.video-container video {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+/* Sección main */
+
+main {    
+    padding: 20px;
+    background-color: #F0EFED;
+}
+
+.card {
+    width: 400px;
+    height: 600px;
+}
+
+.card-body {
+    background-color:#536E91;
+    color: #F2EADF;
+}
+
+.card img {
+    width: 575px;
+    height: 250px;
+}
+
+.seccion1 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+
+/* sección aside */
+
+aside {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.container2 {
+    background-color: #2C2657;
+    color:antiquewhite;
+    display: flex;
+}
+
+.habilidades {
+    padding-bottom: 10px;
+}
+
+
+
+
+
+

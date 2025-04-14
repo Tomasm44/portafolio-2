@@ -1,0 +1,137 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css navbar */
+.navbar {
+    width: 1280px;
+    margin: 0 auto; 
+    display: flex;
+}
+/* Layout general */
+body {
+    background-color: #ffffff; /* Fondo general de la página en blanco */
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto; /* Centra el contenido */
+    background-color: #000000; /* Fondo negro solo del contenido */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 73px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 59px;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Imagen iguana principal */
+.iguana img {
+    width: 100%;
+    height: 727px;
+    display: block;
+}
+
+/* Sección párrafo */
+.parrafo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    padding: 40px 0;
+    color: bisque;
+}
+
+.parrafo p {
+    width: 475px;
+    font: normal normal 300 16px/19px "Raleway", sans-serif;
+    color: #ffffff;
+}
+
+.parrafo img {
+    width: 399px;
+    height: 237px;
+}
+
+/* Sección características */
+.caracteristicas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E1A13;
+    padding: 40px 0;
+    color: #ffffff;
+}
+
+.caracteristicas h1 {
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 40px;
+}
+
+.caracteristicas2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* Espacio entre los elementos */
+}
+
+.caracteristicas2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caracteristicas2 i {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.caracteristicas2 p {
+    font: normal normal 300 24px/29px "Raleway", sans-serif;
+    text-align: center;
+}
+
+/* Sección imágenes */
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #000000;
+    padding: 40px 0;
+}
+
+.imagenes img {
+    width: 316px;
+    height: 202px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 102px;
+    background-color: #1E1A13;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font: normal normal 300 20px/24px "Raleway", sans-serif;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

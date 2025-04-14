@@ -1,0 +1,43 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+i {
+    font-size: 30px;
+}
+
+.containerr {
+    margin: 0% auto;
+    padding: 2%;
+    background-color:#536E91;
+}
+
+.cards {
+    margin: 0% auto;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #31312F;
+}
+
+.card {
+    margin: 5px;
+    border-radius: 120px;
+    background-color: #7A7A7A;
+}
+
+.card img {
+    margin-left: 42px;
+    width: 200px;
+    height: 200px;
+    border-radius: 180px;
+}
+
+.card-body {
+    
+}
+
+.btn {
+    margin-left: 70px; 
+}
