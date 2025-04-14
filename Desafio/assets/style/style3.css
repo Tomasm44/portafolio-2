@@ -1,0 +1,17 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+i {
+    font-size: 30px;
+}
+
+.btn {
+    margin-left: 70px; 
+}
+
+img {
+    width: 500px;
+    height: 800px;
+}
